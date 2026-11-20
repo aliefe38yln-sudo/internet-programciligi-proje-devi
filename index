@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Masacınız</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #F7F1E8;
+      color: #3E2F28;
+      margin: 0;
+    }
+
+    /* Sayfayı ortalayan kutu */
+    .kutu {
+      width: 1000px;
+      margin: auto;
+    }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 32px; text-align: center; }
+    p { font-size: 16px; color: #7A6558; }
+    td { vertical-align: top; padding: 10px; }
+
+    .acik { background-color: #FBF7F0; padding: 40px 0; }
+    .koyu { background-color: #3E2F28; color: white; padding: 40px 0; }
+    .bordo { color: #A65D5D; }
+    .kart { background-color: white; border: 1px solid #E3DAD0; padding: 15px; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ÜST KISIM -->
+  <div class="acik">
+    <div class="kutu">
+      <table width="100%">
+        <tr>
+          <td><b style="font-size:24px">masacınız<span class="bordo">.</span></b></td>
+          <td align="right">Tel: 1234567</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ANA BÖLÜM -->
+  <div class="acik">
+    <div class="kutu">
+      <table width="100%">
+        <tr>
+          <td width="50%">
+            <h1>Her sofranın ve her oyunun <span class="bordo">başrolü.</span></h1>
+            <p>Yemek masasından bilardo masasına, evinizin ölçüsüne göre üretiyoruz. Sağlam malzeme, sade tasarım ve kapıya kadar kurulum.</p>
+            <p>✓ Özel ölçü üretim &nbsp; ✓ Kurulum dahil &nbsp; ✓ 2 yıl garanti</p>
+          </td>
+          <td width="50%">
+            <img src="resimler/yemek-masasi.jpg" width="480" height="400">
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- MASALARIMIZ -->
+  <div class="kutu">
+    <h2>Masalarımız</h2>
+    <p align="center">Sofra, oyun ve keyif için üç farklı masa ailesi.</p>
+
+    <table width="100%">
+      <tr>
+        <td width="33%">
+          <div class="kart">
+            <img src="resimler/yemek-masasi.jpg" width="280" height="210">
+            <h3>Yemek Masası</h3>
+            <p>Masif ceviz ve meşe seçenekleriyle, döner tablalı ya da sade. Ailenizin ölçüsüne göre üretilir.</p>
+          </div>
+        </td>
+        <td width="33%">
+          <div class="kart">
+            <img src="resimler/bilardo-masasi.jpg" width="280" height="210">
+            <h3>Bilardo Masası</h3>
+            <p>Profesyonel mermer taban, gerçek keçe ve masif gövde. Kulüp kalitesini evinize taşır.</p>
+          </div>
+        </td>
+        <td width="33%">
+          <div class="kart">
+            <img src="resimler/masa-tenisi.jpg" width="280" height="210">
+            <h3>Masa Tenisi</h3>
+            <p>Kalın profesyonel taban, katlanabilir gövde ve turnuva filesi. Tek hamlede oyuna hazır.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- İŞİNİZİ KOLAYLAŞTIRIYORUZ -->
+  <div class="acik">
+    <div class="kutu">
+      <h2>İşinizi kolaylaştırıyoruz</h2>
+      <table width="100%">
+        <tr>
+          <td width="25%"><div class="kart"><h3>Özel ölçü</h3><p>Mekânınıza göre milimetrik üretim.</p></div></td>
+          <td width="25%"><div class="kart"><h3>Usta işçilik</h3><p>Masif ahşap ve sağlam birleşimler.</p></div></td>
+          <td width="25%"><div class="kart"><h3>Teslimat ve kurulum</h3><p>İstanbul içinde kendi ekibimizle.</p></div></td>
+          <td width="25%"><div class="kart"><h3>2 yıl garanti</h3><p>İskelet ve işçilik güvencesi.</p></div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ATÖLYE -->
+  <div class="kutu">
+    <table width="100%">
+      <tr>
+        <td width="50%">
+          <img src="resimler/bilardo-masasi.jpg" width="480" height="380">
+        </td>
+        <td width="50%">
+          <h1 style="font-size:32px">Ahşap işçiliğinde 35 yıl.</h1>
+          <p>Bomonti'deki atölyemizde masaları elde üretiyoruz. Doğru ağacı seçiyor, kurutuyor ve yıllarca kullanılacak şekilde birleştiriyoruz.</p>
+          <p>
+            ✓ Masif ceviz, meşe ve kayın<br>
+            ✓ Su bazlı, sağlığa uygun yüzeyler<br>
+            ✓ Geleneksel geçme ve zıvana
+          </p>
+          <p><b>35 yıl</b> deneyim | <b>1.200+</b> teslim | <b>4,9/5</b> puan</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ALT KISIM -->
+  <div class="koyu">
+    <div class="kutu">
+      <h2 style="text-align:left">masacınız.</h2>
+      <p style="color:white">Sofralar ve oyunlar için el yapımı masalar. İstanbul'da üretiyor, Türkiye'ye gönderiyoruz.</p>
+      <p style="color:white">
+        Adres: Bomonti Caddesi No: 00, Şişli / İstanbul<br>
+        Tel: 1234567<br>
+        E-posta: 1234567
+      </p>
+      <p style="color:white">© 2026 Masacınız. Tüm hakları saklıdır.</p>
+    </div>
+  </div>
+
+</body>
+</html>
